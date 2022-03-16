@@ -1,6 +1,8 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import week2.week2Main
 
-    // Try adding program arguments at Run/Debug configuration
-    println("Program arguments: ${args.joinToString()}")
+fun main(args: Array<String>) {
+
+    // All week 2 codes
+    week2Main()
 }
+
