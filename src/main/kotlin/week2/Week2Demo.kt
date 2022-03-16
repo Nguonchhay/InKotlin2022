@@ -6,7 +6,8 @@ fun week2Main() {
 //    val result = value1 + value2
 //    println("$value1 + $value2 = $result")
 
-    sumDemo2()
+    //sumDemo2()
+    task1()
 }
 
 fun sumDemo1() {
@@ -67,4 +68,24 @@ fun sumDemo2() {
         print("Enter 'yes' to continue: ")
         val answer: String = readLine()!!.toString()
     } while(answer == "yes")
+}
+
+fun task1() {
+    print("Enter student score: ")
+    val score = readLine()!!.toInt()
+    var grade: String = ""
+    if (score >= 95) {
+        grade = "A"
+    } else if (score >= 90 && score < 95) {
+        grade = "B"
+    } else if (score >= 80 && score < 90) {
+        grade = "D"
+    } else if (score >= 65 && score < 80) {
+        grade = "D"
+    } else if (score >= 50 && score < 65) {
+        grade = "E"
+    } else {
+        grade = "F"
+    }
+    print("Your garde is $grade")
 }
