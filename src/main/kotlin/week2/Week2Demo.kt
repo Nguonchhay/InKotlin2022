@@ -8,7 +8,8 @@ fun week2Main() {
 
     //sumDemo2()
     //task1()
-    task2()
+    //task2()
+    task6Demo1()
 }
 
 fun sumDemo1() {
@@ -97,4 +98,13 @@ fun task2() {
     print("Enter width and height (split by space): ")
     val (width, height) = readLine()!!.split(' ').map(String::toInt)
     print("Rectangle S = ${width * height}, P = ${2 * (width + height)}")
+}
+
+fun task6Demo1() {
+    print("Enter sentence: ")
+    val sentence = readLine()!!.toString()
+    val arrWords = sentence.split(' ')
+    for (word in arrWords) {
+        print("${word.replaceFirstChar(Char::titlecase)} ")
+    }
 }
