@@ -7,7 +7,8 @@ fun week2Main() {
 //    println("$value1 + $value2 = $result")
 
     //sumDemo2()
-    task1()
+    //task1()
+    task2()
 }
 
 fun sumDemo1() {
@@ -88,4 +89,12 @@ fun task1() {
         grade = "F"
     }
     print("Your garde is $grade")
+}
+
+fun task2() {
+    // Rectangle area = width * height
+    // Rectangle perimeter = 2 * (width + height)
+    print("Enter width and height (split by space): ")
+    val (width, height) = readLine()!!.split(' ').map(String::toInt)
+    print("Rectangle S = ${width * height}, P = ${2 * (width + height)}")
 }
