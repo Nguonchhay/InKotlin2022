@@ -1,5 +1,6 @@
 import week2.week2Main
 import week3.week3Main
+import week4.week4Main
 
 fun main(args: Array<String>) {
 
@@ -7,6 +8,9 @@ fun main(args: Array<String>) {
     // week2Main()
 
     // All week 3 codes
-    week3Main()
+    // week3Main()
+
+    // All week 4 codes
+    week4Main()
 }
 
